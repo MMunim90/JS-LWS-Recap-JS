@@ -192,19 +192,21 @@ int main()
 
 
 // reversed a number
-#include<stdio.h>
-int main()
-{
-    int n, rev = 0;
-    printf("enter a number: ");
-    scanf("%d", &n);
+// #include<stdio.h>
+// int main()
+// {
+//     int n, rev = 0;
+//     printf("enter a number: ");
+//     scanf("%d", &n);
 
-    while(n != 0)
-    {
-        rev = rev * 10 + n % 10;
-        n = n / 10;
-    }
+//     while(n != 0)
+//     {
+//         rev = rev * 10 + n % 10;
+//         n = n / 10;
+//     }
 
-    printf("reversed number: %d\n", rev);
-    return 0;
-}
+//     printf("reversed number: %d\n", rev);
+//     return 0;
+// }
+
+
