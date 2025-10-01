@@ -1,6 +1,6 @@
 // array methods
 
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango", "Apple"];
 
 // find
 // const result = fruits.find((f) => f === "Orange" || f === "Mango" );
@@ -19,7 +19,38 @@ const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // splice
 // const result = fruits.splice(index, noOfRemovedItems);
 
-const result = fruits.splice(2, 2, "Pineapple", "Jack-Fruit", "Goava");
+// const result = fruits.splice(2, 2, "Pineapple", "Jack-Fruit", "Goava");
+
+
+//concat
+// const result = fruits.concat(["fruit 1", "fruit 2"]);
+
+//push
+// const result = fruits.push("fruit 1");
+
+//map
+// const result = fruits.map((f) => {
+//     if(f === "Apple"){
+//         return "Apple";
+//     }
+//     else{
+//         return "N/A";
+//     }
+// });
+
+// const result = fruits.map((f) => f === "Apple" ? "Apple" : "N/A");
+
+// const result = fruits.map((f) => `${f} -`)
+
+// const res = [];
+// for(let i = 0; i <= fruits.length; i++){
+//     if(fruits[i] === "Apple"){
+//         res.push("Apple")
+//     }
+//     else{
+//         res.push("N/A")
+//     }
+// }
 
 console.log(result);
 console.log(fruits);
