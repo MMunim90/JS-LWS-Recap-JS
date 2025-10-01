@@ -25,6 +25,32 @@
 
 
 // arrow function
-const hello = () => {
-    console.log("Hello world");
+// const hello = () => {
+//     console.log("Hello world");
+// }
+
+// const hello = (a, b) => a + b;
+
+// console.log(hello(5, 6));
+
+
+// const hello = () =>({
+//     a: 5,
+//     b: 6,
+// });
+
+// console.log(hello());
+
+
+// anonymous function
+// function hello() {
+//     return () => {
+//         console.log("Hello world");
+//     }
+// }
+
+function hello() {
+    return function () {
+        console.log("Hello world");
+    }
 }
