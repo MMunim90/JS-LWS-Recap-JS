@@ -49,8 +49,8 @@
 //     }
 // }
 
-function hello() {
-    return function () {
-        console.log("Hello world");
-    }
-}
+// function hello() {
+//     return function () {
+//         console.log("Hello world");
+//     }
+// }
