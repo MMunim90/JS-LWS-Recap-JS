@@ -55,15 +55,28 @@ const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango", "Apple"];
 // console.log(result);
 // console.log(fruits);
 
-const numbers = [1, 2, 3, 4, 5];
-const name = "Munim";
+// const numbers = [1, 2, 3, 4, 5];
+// const name = "Munim";
 
 // reduce
 // const result = numbers.reduce((total, currValue) => total + currValue, 0);
 
 // for of
-for(c of name){
-    console.log(c);
-}
+// for(c of name){
+//     console.log(c);
+// }
 
 // console.log(result);
+
+
+// for in
+const language = {
+    name: "JavaScript",
+    year: 1995,
+    creator: "Brendan Eich",
+};
+
+for (key in language){
+    // console.log(key)
+    console.log(language[key]);
+}
